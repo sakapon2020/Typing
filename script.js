@@ -62,7 +62,7 @@ async function RenderNextSentence() {
         // characterSpan.classList.add("correct");
     });
     // テキストボックスの中身を消す
-    typeInput.value = "";
+    typeInput.value = null;
 
     StartTimer();
 }
