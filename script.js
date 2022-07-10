@@ -29,10 +29,10 @@ typeInput.addEventListener("input", () => {
         } else {
             characterSpan.classList.add("incorrect");
             characterSpan.classList.remove("correct");
-            wrongSound.volume = 30;
+            correct = false;
+            wrongSound.volume = 0.3;
             wrongSound.play();
             wrongSound.currentTime = 0;
-            correct = false;
         }
     })
 
